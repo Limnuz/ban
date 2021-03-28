@@ -2,7 +2,7 @@ var topo = document.querySelector("div#top")
 var esquerda = document.querySelector("div#left")
 var direita = document.querySelector("div#right")
 
-var folders = [['seduzir','https://www.escoladeseducao.com/matricule-se/?ref=D50695930P'], ['orgasmo','https://go.hotmart.com/O50734083K?dp=1'], ['informatica', 'https://go.hotmart.com/W50745338B']]
+var folders = [['seduzir','https://www.escoladeseducao.com/matricule-se/?ref=D50695930P'], ['orgasmo','https://go.hotmart.com/O50734083K?dp=1'], ['informatica', 'https://go.hotmart.com/W50745338B'],['emagrecer','https://go.hotmart.com/O50746723G']]
 
 var folderTop = randomFolder()
 try {
