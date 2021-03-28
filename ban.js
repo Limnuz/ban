@@ -10,7 +10,7 @@ var folders = [['seduzir','https://www.escoladeseducao.com/matricule-se/?ref=D50
 //gera o banner top
 var folderTop = randomFolder()
 try {
-topo.innerHTML= `<a href=${folders[folderTop][1]}>  <img src="https://limnuz.github.io/ban/${folders[folderTop][0]}/728x90.jpg"> </a>`
+topo.innerHTML= `<a href=${folders[folderTop][1]}>  <img src="https://limnuz.github.io/ban/${folders[folderTop][0]}/top.jpg"> </a>`
 } catch (e){
     console.log(e)
 }
