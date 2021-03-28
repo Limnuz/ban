@@ -6,21 +6,21 @@ var folders = [['seduzir','https://www.escoladeseducao.com/matricule-se/?ref=D50
 
 var folderTop = randomFolder()
 try {
-topo.innerHTML= `<a href=${folders[folderTop][1]}>  <img src="${folders[folderTop][0]}/728x90.jpg"> </a>`
+topo.innerHTML= `<a href=${folders[folderTop][1]}>  <img src="https://limnuz.github.io/ban/${folders[folderTop][0]}/728x90.jpg"> </a>`
 } catch (e){
     console.log(e)
 }
 
 var folderLeft = randomFolder()
 try {
-esquerda.innerHTML= `<a href=${folders[folderLeft][1]}>  <img src="${folders[folderLeft][0]}/300x250.jpg"> </a>`
+esquerda.innerHTML= `<a href=${folders[folderLeft][1]}>  <img src="https://limnuz.github.io/ban/${folders[folderLeft][0]}/300x250.jpg"> </a>`
 } catch (e){
     console.log(e)
 }
 
 var folderRight = randomFolder()
 try {
-direita.innerHTML= `<a href=${folders[folderRight][1]}>  <img src="${folders[folderRight][0]}/300x250.jpg"> </a>`
+direita.innerHTML= `<a href=${folders[folderRight][1]}>  <img src="https://limnuz.github.io/ban/${folders[folderRight][0]}/300x250.jpg"> </a>`
 } catch (e){
     console.log(e)
 }
