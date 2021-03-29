@@ -21,7 +21,7 @@ while(folderTop == folderLeft){
     folderLeft = randomFolder()
 }
 try {
-esquerda.innerHTML= `<a href=${folders[folderLeft][1]}>  <img src="https://limnuz.github.io/ban/${folders[folderLeft][0]}/300x250.jpg"> </a>`
+esquerda.innerHTML= `<a href=${folders[folderLeft][1]}>  <img src="https://limnuz.github.io/ban/${folders[folderLeft][0]}/side.jpg"> </a>`
 } catch (e){
     console.log(e)
 }
@@ -32,7 +32,7 @@ while(folderRight == folderTop || folderRight == folderLeft){
     folderRight = randomFolder()
 }
 try {
-direita.innerHTML= `<a href=${folders[folderRight][1]}>  <img src="https://limnuz.github.io/ban/${folders[folderRight][0]}/300x250.jpg"> </a>`
+direita.innerHTML= `<a href=${folders[folderRight][1]}>  <img src="https://limnuz.github.io/ban/${folders[folderRight][0]}/side.jpg"> </a>`
 } catch (e){
     console.log(e)
 }
