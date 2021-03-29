@@ -15,32 +15,29 @@ topo.innerHTML= `<a href=${folders[folderTop][1]}>  <img src="https://limnuz.git
     console.log(e)
 }
 
-//CORRIGIR ERRO DE LAYOUT EM TELA PEQUENA PARA DESCOMENTAR ABAIXO
-/* 
-//gera o banner left
-var folderLeft = randomFolder()
-while(folderTop == folderLeft){
-    folderLeft = randomFolder()
-}
-try {
-esquerda.innerHTML= `<a href=${folders[folderLeft][1]}>  <img src="https://limnuz.github.io/ban/${folders[folderLeft][0]}/side.jpg"> </a>`
-} catch (e){
-    console.log(e)
-}
+if(window.innerWidth > 1100){ 
+    //gera o banner left
+    var folderLeft = randomFolder()
+    while(folderTop == folderLeft){
+        folderLeft = randomFolder()
+    }
+    try {
+    esquerda.innerHTML= `<a href=${folders[folderLeft][1]}>  <img src="https://limnuz.github.io/ban/${folders[folderLeft][0]}/side.jpg"> </a>`
+    } catch (e){
+        console.log(e)
+    }
 
-//gera o banner right
-var folderRight = randomFolder()
-while(folderRight == folderTop || folderRight == folderLeft){
-    folderRight = randomFolder()
+    //gera o banner right
+    var folderRight = randomFolder()
+    while(folderRight == folderTop || folderRight == folderLeft){
+        folderRight = randomFolder()
+    }
+    try {
+    direita.innerHTML= `<a href=${folders[folderRight][1]}>  <img src="https://limnuz.github.io/ban/${folders[folderRight][0]}/side.jpg"> </a>`
+    } catch (e){
+        console.log(e)
+    }
 }
-try {
-direita.innerHTML= `<a href=${folders[folderRight][1]}>  <img src="https://limnuz.github.io/ban/${folders[folderRight][0]}/side.jpg"> </a>`
-} catch (e){
-    console.log(e)
-}
-
-*/
-
 
 //Gera um número aleatório entre 0 e a quantidade de pastas com banners
 function randomFolder (qtd = folders.length){
