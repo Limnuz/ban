@@ -15,6 +15,8 @@ topo.innerHTML= `<a href=${folders[folderTop][1]}>  <img src="https://limnuz.git
     console.log(e)
 }
 
+//CORRIGIR ERRO DE LAYOUT EM TELA PEQUENA PARA DESCOMENTAR ABAIXO
+/* 
 //gera o banner left
 var folderLeft = randomFolder()
 while(folderTop == folderLeft){
@@ -36,6 +38,8 @@ direita.innerHTML= `<a href=${folders[folderRight][1]}>  <img src="https://limnu
 } catch (e){
     console.log(e)
 }
+
+*/
 
 
 //Gera um número aleatório entre 0 e a quantidade de pastas com banners
