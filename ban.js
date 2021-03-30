@@ -44,8 +44,9 @@ if(window.innerWidth > 1100){
 
 /* Insira no html para ativar:
 <div id="modal-promocao" class="modal-container">
-		<div class="modal">
-		</div>
+    <div class="modal">
+    </div>
+</div>
 */
 var modalCss = document.createElement('link')
 modalCss.setAttribute('rel', 'stylesheet')
