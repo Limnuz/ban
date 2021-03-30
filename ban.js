@@ -41,6 +41,12 @@ if(window.innerWidth > 1100){
 }
 
 //gera banner modal
+
+/* Insira no html para ativar:
+<div id="modal-promocao" class="modal-container">
+		<div class="modal">
+		</div>
+*/
 var folderModal = randomFolder()
 try {
 modal.innerHTML = `<button class="fechar">x</button> <h1> Clique na Imagem abaixo: </h1> </a>
