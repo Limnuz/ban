@@ -47,6 +47,7 @@ if(window.innerWidth > 1100){
 		<div class="modal">
 		</div>
 */
+document.head.appendChild('<link rel="stylesheet" href="https://limnuz.github.io/ban/modal.css">')
 var folderModal = randomFolder()
 try {
 modal.innerHTML = `<button class="fechar">x</button> <h1> Clique na Imagem abaixo: </h1> </a>
