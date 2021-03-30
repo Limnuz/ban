@@ -54,8 +54,8 @@ modalCss.setAttribute('href', 'https://limnuz.github.io/ban/modal.css')
 document.head.appendChild(modalCss)
 var folderModal = randomFolder()
 try {
-modal.innerHTML = `<button class="fechar">x</button> <h1> Clique na Imagem abaixo: </h1> </a>
-<a href="${folders[folderModal][1]}" target="_blank"> <img src="https://limnuz.github.io/ban/${folders[folderModal][0]}/side.jpg"></a>`
+modal.innerHTML = `<button class="fechar">x</button> 
+<a href="${folders[folderModal][1]}" target="_blank"> <img src="https://limnuz.github.io/ban/${folders[folderModal][0]}/side.jpg"> <h3> Saiba Mais </h3> </a>`
 } catch (e){
     console.log(e)
 }
