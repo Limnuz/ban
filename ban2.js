@@ -6,7 +6,7 @@ var direita = document.querySelector("div#right")
 var modal = document.querySelector("div.modal")
 
 //todos as pastas com banners
-var folders = [['seduzir','https://www.escoladeseducao.com/matricule-se/?ref=D50695930P'],  ['informatica', 'https://go.hotmart.com/W50745338B'],['emagrecer','https://go.hotmart.com/O50746723G'],['dinheiro_jogando','https://go.hotmart.com/G50748993D']]
+var folders = [['seduzir','https://www.escoladeseducao.com/matricule-se/?ref=D50695930P'],  ['informatica', 'https://go.hotmart.com/W50745338B'],['emagrecer','https://go.hotmart.com/O50746723G'],['dinheiro_jogando','https://go.hotmart.com/G50748993D'], ['emagraca_19_dias','https://go.hotmart.com/U51196897Q'],['receitas_coqueteis','https://go.hotmart.com/V51223595M']]
 
 //gera o banner top
 var folderTop = randomFolder()
